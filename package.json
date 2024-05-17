@@ -1,0 +1,29 @@
+{
+  "name": "backend-apis",
+  "version": "1.0.0",
+  "description": "backend code",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farukh110/A1consultancy-APIs.git"
+  },
+  "keywords": [
+    "blog",
+    "posts"
+  ],
+  "author": "farukh sajjad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farukh110/A1consultancy-APIs/issues"
+  },
+  "homepage": "https://github.com/farukh110/A1consultancy-APIs#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0",
+    "nodemon": "^3.1.0"
+  }
+}
