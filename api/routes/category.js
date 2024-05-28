@@ -5,7 +5,7 @@ const { createCategory, getAllCategories, deleteCategory, updateCategory, getAll
 
 // add category by admin
 
-router.post('/', createCategory);
+router.post('/', checkAdmin, createCategory);
 
 // get all categories
 
@@ -13,13 +13,13 @@ router.get('/', getAllCategories);
 
 // delete category
 
-router.delete('/:id', deleteCategory);
+router.delete('/:id', checkAdmin, deleteCategory);
 
 // update category
 
 // router.put('/:id', checkAdmin, updateCategory);
 
-router.put('/:id', updateCategory);
+router.put('/:id', checkAdmin, updateCategory);
 
 // get all counts categories
 

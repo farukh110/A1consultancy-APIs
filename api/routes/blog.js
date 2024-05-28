@@ -5,7 +5,7 @@ const { createPost, getAllPosts, getBlogPost, getPostByCategory, deletePost, upd
 
 // post blog by admin
 
-router.post('/', createPost);
+router.post('/', checkAdmin, createPost);
 
 // get all posts
 
@@ -26,11 +26,11 @@ router.get('/category/:category', getPostByCategory);
 
 // delete post
 
-router.delete('/:id', deletePost);
+router.delete('/:id', checkAdmin, deletePost);
 
 // update post
 
-router.put('/:id', updatePost);
+router.put('/:id', checkAdmin, updatePost);
 
 // get all counts blog
 
