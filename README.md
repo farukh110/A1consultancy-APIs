@@ -21,7 +21,6 @@ We are fully committed to ensuring your success. Our professionals excel in cont
 ✅ **🔑 Admin Authentication** – Secure login with JWT  
 ✅ **📝 Blog Management** – CRUD operations for blogs  
 ✅ **📂 Category Management** – Organize and manage blog categories  
-✅ **💬 Comment System** – Allow users to add and manage comments  
 ✅ **📊 Admin Dashboard APIs** – Access analytics and reports  
 ✅ **⚡ Optimized Performance** – Efficient request handling with Express.js  
 ✅ **🚀 CI/CD Integration** – Automated deployments with GitHub Actions & Vercel  
